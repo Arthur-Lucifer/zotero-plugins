@@ -57,6 +57,20 @@ export const plugins: PluginInfoBase[] = [
     tags: ['interface'],
   },
   {
+    repo: 'alansirius/Zotero-Exitem',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['productivity', 'ai', 'notes'],
+  },
+  {
     repo: 'alima-webdev/zotero-review-assistant',
     releases: [
       {
@@ -84,7 +98,7 @@ export const plugins: PluginInfoBase[] = [
     repo: 'ANGJustinl/zotero-plugin-hjfy',
     releases: [
       {
-        targetZoteroVersion: '7',
+        targetZoteroVersion: '8',
         tagName: 'latest',
       },
     ],
@@ -143,6 +157,20 @@ export const plugins: PluginInfoBase[] = [
     tags: ['productivity'],
   },
   {
+    repo: 'BryceWG/zotero-ai-tags',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['others'],
+  },
+  {
     repo: 'bulletproof-system/zotero-maimemo-sync',
     releases: [
       {
@@ -183,6 +211,20 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['favorite', 'metadata'],
+  },
+  {
+    repo: 'Chikit-L/zotero-fulltext-translate',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['productivity'],
   },
   {
     repo: 'cookjohn/zotero-mcp',
@@ -369,6 +411,16 @@ export const plugins: PluginInfoBase[] = [
     tags: ['ai', 'productivity', 'notes'],
   },
   {
+    repo: 'etShaw-zh/zotero-career-tracker',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['visualization'],
+  },
+  {
     repo: 'etShaw-zh/zotracer',
     releases: [
       {
@@ -377,6 +429,16 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['integration', 'visualization', 'productivity'],
+  },
+  {
+    repo: 'federicotorrielli/zotero-metadata-hunter',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['metadata'],
   },
   {
     repo: 'fkguo/zotero-inspire',
@@ -412,20 +474,21 @@ export const plugins: PluginInfoBase[] = [
     ],
     tags: ['attachment'],
   },
-  {
-    repo: 'frianasoa/Ze-Notes',
-    releases: [
-      {
-        targetZoteroVersion: '8',
-        tagName: 'latest',
-      },
-      {
-        targetZoteroVersion: '7',
-        tagName: 'latest',
-      },
-    ],
-    tags: ['notes'],
-  },
+  // 26/4/6: this github user has been removed
+  // {
+  //   repo: 'frianasoa/Ze-Notes',
+  //   releases: [
+  //     {
+  //       targetZoteroVersion: '8',
+  //       tagName: 'latest',
+  //     },
+  //     {
+  //       targetZoteroVersion: '7',
+  //       tagName: 'latest',
+  //     },
+  //   ],
+  //   tags: ['notes'],
+  // },
   {
     repo: 'FrLars21/ZoteroCitationCountsManager',
     releases: [
@@ -459,6 +522,20 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['developer'],
+  },
+  {
+    repo: 'GroundbreakerLhy/CCF-Rank',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['metadata'],
   },
   {
     repo: 'guaguastandup/zotero-pdf2zh',
@@ -513,6 +590,16 @@ export const plugins: PluginInfoBase[] = [
     tags: ['integration'],
   },
   {
+    repo: 'Infinity4B/zotero-hjfy-split-reader',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['reader', 'productivity'],
+  },
+  {
     repo: 'introfini/mcp-server-zotero-dev',
     releases: [
       {
@@ -533,6 +620,16 @@ export const plugins: PluginInfoBase[] = [
     tags: ['ai'],
   },
   {
+    repo: 'j-cyoung/PaperViewZoteroPlugin',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity'],
+  },
+  {
     repo: 'jagaldol/zotero-cite-preview-resizer',
     releases: [
       {
@@ -551,6 +648,16 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['productivity', 'visualization'],
+  },
+  {
+    repo: 'Jarvis-Towne/paper-feed-zotero',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['metadata'],
   },
   {
     repo: 'jetxa/zotero-ai-assistant',
@@ -667,7 +774,7 @@ export const plugins: PluginInfoBase[] = [
       },
       {
         targetZoteroVersion: '7',
-        tagName: 'latest',
+        tagName: 'v1.1.28',
       },
       {
         targetZoteroVersion: '6',
@@ -705,6 +812,16 @@ export const plugins: PluginInfoBase[] = [
     tags: ['others'],
   },
   {
+    repo: 'leike0813/Zotero-Skills',
+    releases: [
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'integration'],
+  },
+  {
     repo: 'lifan0127/ai-research-assistant',
     releases: [
       {
@@ -717,6 +834,54 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['ai', 'productivity'],
+  },
+  {
+    repo: 'lisontowind/zotero-copilot',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity'],
+  },
+  {
+    repo: 'lisontowind/zotero-mineru',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'attachment', 'productivity'],
+  },
+  {
+    repo: 'menyoung/zoTLDR',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai'],
+  },
+  {
+    repo: 'mobench/zotero-annotation-links',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['reader'],
   },
   {
     repo: 'MuiseDestiny/eaiser-citation',
@@ -766,7 +931,7 @@ export const plugins: PluginInfoBase[] = [
         tagName: '0.0.7',
       },
     ],
-    tags: ['favorite', 'reader', 'productivity'],
+    tags: ['reader', 'productivity'],
   },
   {
     repo: 'MuiseDestiny/zotero-gpt',
@@ -803,7 +968,7 @@ export const plugins: PluginInfoBase[] = [
         customLink: 'https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-reference.xpi',
       },
     ],
-    tags: ['favorite', 'metadata', 'reader'],
+    tags: ['metadata', 'reader'],
   },
   {
     repo: 'MuiseDestiny/ZoteroStyle',
@@ -829,12 +994,16 @@ export const plugins: PluginInfoBase[] = [
     repo: 'northword/zotero-format-metadata',
     releases: [
       {
+        targetZoteroVersion: '9',
+        tagName: 'latest',
+      },
+      {
         targetZoteroVersion: '8',
         tagName: 'latest',
       },
       {
         targetZoteroVersion: '7',
-        tagName: 'latest',
+        tagName: 'v2.3.0',
       },
       {
         targetZoteroVersion: '6',
@@ -860,6 +1029,10 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'occasional16/researchopia',
     releases: [
+      {
+        targetZoteroVersion: '9',
+        tagName: 'latest',
+      },
       {
         targetZoteroVersion: '8',
         tagName: 'latest',
@@ -938,6 +1111,20 @@ export const plugins: PluginInfoBase[] = [
     tags: ['reader'],
   },
   {
+    repo: 'Qiujv/zotero-hashtags-column',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.0.2',
+      },
+    ],
+    tags: ['interface'],
+  },
+  {
     repo: 'qiwei-ma/zotero-pdf-setHorizontal',
     releases: [
       {
@@ -950,6 +1137,16 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['interface'],
+  },
+  {
+    repo: 'quertt/zotero-keyword-highlighter',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['reader'],
   },
   {
     repo: 'redleafnew/delitemwithatt',
@@ -1104,6 +1301,20 @@ export const plugins: PluginInfoBase[] = [
     tags: ['productivity'],
   },
   {
+    repo: 'ScienceLiveHub/science-live-platform',
+    releases: [
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['integration', 'metadata'],
+  },
+  {
     repo: 'SciImage/zotero-attachment-scanner',
     releases: [
       {
@@ -1132,6 +1343,20 @@ export const plugins: PluginInfoBase[] = [
     tags: ['integration'],
   },
   {
+    repo: 'sheny-bio/marginalia',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity'],
+  },
+  {
     repo: 'steven-jianhao-li/zotero-AI-Butler',
     releases: [
       {
@@ -1154,6 +1379,20 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['visualization'],
+  },
+  {
+    repo: 'swcxito/zotero-ai-bar',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity'],
   },
   {
     repo: 'syt2/paper-chat-for-zotero',
@@ -1288,6 +1527,30 @@ export const plugins: PluginInfoBase[] = [
     tags: ['others'],
   },
   {
+    repo: 'vastronghq/MarginMind',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai'],
+  },
+  {
+    repo: 'Visterainer/zoteroAI',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity'],
+  },
+  {
     repo: 'volatile-static/Chartero',
     releases: [
       {
@@ -1304,6 +1567,24 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['favorite', 'visualization', 'interface'],
+  },
+  {
+    repo: 'wdcpclover/ai4paper',
+    releases: [
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity', 'reader', 'notes', 'metadata', 'interface', 'visualization'],
   },
   {
     repo: 'WildDataX/suppr-zotero-plugin',
@@ -1450,6 +1731,16 @@ export const plugins: PluginInfoBase[] = [
     tags: ['productivity'],
   },
   {
+    repo: 'YanSH258/zotero-dailypaper',
+    releases: [
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai'],
+  },
+  {
     repo: 'yhmtsai/KeepZotero',
     releases: [
       {
@@ -1462,6 +1753,20 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['others'],
+  },
+  {
+    repo: 'yilewang/llm-for-zotero',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'notes', 'productivity'],
   },
   {
     repo: 'yueneiqi/zotero2eagle',

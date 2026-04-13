@@ -1,14 +1,36 @@
 import type { PluginInfo, PluginInfoBase, ReleaseInfo, ReleaseInfoBase } from '../types.js'
+import { env } from 'node:process'
 import AdmZip from 'adm-zip'
 import { consola } from 'consola'
 import fs from 'fs-extra'
 import { jsonc } from 'jsonc'
 import { dist } from '../index.js'
 import { download } from '../utils/fs.js'
-import { getRelease, getReleaseAssetBuffer, octokit, translateString } from '../utils/index.js'
+import { getRelease, getReleaseAssetBuffer, handlePluginErrors, octokit, translateString } from '../utils/index.js'
 
-export function fetchPlugins(plugins: PluginInfoBase[]) {
-  return Promise.all(plugins.map(fetchPlugin))
+export async function fetchPlugins(plugins: PluginInfoBase[]): Promise<PluginInfo[]> {
+  const results = await Promise.allSettled(plugins.map(fetchPlugin))
+  const errors = []
+  for (const [index, result] of results.entries()) {
+    if (result.status === 'rejected') {
+      const plugin = plugins[index]
+      consola.error(plugin.repo, result.reason)
+      errors.push({ repo: plugin.repo, error: result.reason })
+    }
+  }
+
+  if (env.GITHUB_ACTIONS) {
+    await handlePluginErrors(errors)
+  }
+  else {
+    if (errors.length) {
+      throw new Error(`${errors.length} errors found`)
+    }
+  }
+
+  return results
+    .filter(r => r.status === 'fulfilled')
+    .map(r => r.value)
 }
 
 async function fetchPlugin(pluginBase: PluginInfoBase): Promise<PluginInfo> {
